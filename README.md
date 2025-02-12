@@ -29,3 +29,94 @@ npm run dev
 
 
 POST /asset-details
+
+
+### Development Details
+
+I chose **Express** as the framework for this project because it is where I have the most experience and expertise. 
+
+To ensure data integrity, I used **Celebrate** for input validation, which prevents incorrect or falsified data from being processed.
+
+Additionally, I implemented **error handling** in the service responsible for creating `assetDetails`, ensuring robustness and reliability in the application.
+
+Here is the detailed folder structure based on the provided description:
+
+```markdown
+# Project Folder Structure
+
+Below is the project folder structure, organized in a clear and modular way:
+
+```
+src/
+├── @types/
+│   ├── env.d.ts
+│   └── express.d.ts
+├── assets/
+│   └── errors.log
+├── dios/
+│   ├── iCodeDTO.ts
+│   ├── iExceptionDTO.ts
+│   ├── IObjectDTO.ts
+│   └── iResponseDTO.ts
+├── middlewares/
+│   └── errorHandler.ts
+├── modules/
+│   └── assetsDetails/
+│       ├── dios/
+│       │   └── IAssetDetailDTO.ts
+│       ├── services/
+│       │   └── createAssetDetail/
+│       │       ├── CreateAssetDetailController.ts
+│       │       └── CreateAssetDetailService.ts
+│       └── validators/
+├── routes/
+│   ├── guardDetailRouter.ts
+│   └── index.ts
+├── shared/
+│   └── errors/
+│       └── AppError.ts
+├── app.ts
+└── server.ts
+```
+
+### Description of Folders and Files
+
+- **@types/**: Contains TypeScript type definitions for environment extensions and frameworks.
+  - `env.d.ts`: Defines types for environment variables.
+  - `express.d.ts`: Defines custom types for Express.
+
+- **assets/**: Stores static files or logs.
+  - `errors.log`: Log file for errors.
+
+- **dios/**: Contains DTO (Data Transfer Object) interfaces for data standardization.
+  - `iCodeDTO.ts`: Interface for response codes.
+  - `iExceptionDTO.ts`: Interface for exceptions.
+  - `IObjectDTO.ts`: Interface for generic objects.
+  - `iResponseDTO.ts`: Interface for API responses.
+
+- **middlewares/**: Contains global middlewares.
+  - `errorHandler.ts`: Middleware for centralized error handling.
+
+- **modules/**: Organizes project modules.
+  - **assetsDetails/**: Module related to asset details.
+    - **dios/**: Contains DTO interfaces specific to the module.
+      - `IAssetDetailDTO.ts`: Interface for asset details.
+    - **services/**: Contains business logic.
+      - **createAssetDetail/**: Service for creating asset details.
+        - `CreateAssetDetailController.ts`: Controller for creating asset details.
+        - `CreateAssetDetailService.ts`: Service for creating asset details.
+    - **validators/**: Contains data validators for the module.
+
+- **routes/**: Defines application routes.
+  - `guardDetailRouter.ts`: Specific route for asset details.
+  - `index.ts`: Main route configuration file.
+
+- **shared/**: Contains shared resources.
+  - **errors/**: Defines custom errors.
+    - `AppError.ts`: Base class for custom errors.
+
+- **app.ts**: Main Express application configuration.
+- **server.ts**: Server initialization file.
+```
+
+This modular structure facilitates code maintenance, scalability, and organization.
