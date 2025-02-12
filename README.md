@@ -27,6 +27,5 @@ Run the project
 npm run dev
 ```
 
-### 4. 
 
-POST Route /asset-details
+POST /asset-details
