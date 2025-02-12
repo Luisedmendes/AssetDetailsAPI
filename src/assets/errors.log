@@ -1,0 +1,17 @@
+{
+  "TIME_OF_OCCURRENCE": "12/02/2025 01:28:42 UTC-3",
+  "VALIDATION_FAILED": "\"teste\" is not allowed",
+  "PATH": "at D:\\teste\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}{
+  "TIME_OF_OCCURRENCE": "12/02/2025 01:29:39 UTC-3",
+  "BAD_REQUEST": "Missing fields",
+  "PATH": "at CreateAssetDetailService.execute (D:\\teste\\src\\modules\\assetsDetails\\services\\createAssetDetail\\CreateAssetDetailService.ts:21:15)\n    at handle (D:\\teste\\src\\modules\\assetsDetails\\services\\createAssetDetail\\CreateAssetDetailController.ts:15:37)\n    at newFn (D:\\teste\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (D:\\teste\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\teste\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}{
+  "TIME_OF_OCCURRENCE": "12/02/2025 01:29:59 UTC-3",
+  "VALIDATION_FAILED": "\"legal_roof\" is not allowed",
+  "PATH": "at D:\\teste\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}{
+  "TIME_OF_OCCURRENCE": "12/02/2025 01:31:24 UTC-3",
+  "VALIDATION_FAILED": "\"valuatin\" is not allowed",
+  "PATH": "at D:\\teste\\node_modules\\celebrate\\lib\\celebrate.js:95:19\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}
