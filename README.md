@@ -41,43 +41,6 @@ Additionally, I implemented **error handling** in the service responsible for cr
 
 Here is the detailed folder structure based on the provided description:
 
-```markdown
-# Project Folder Structure
-
-Below is the project folder structure, organized in a clear and modular way:
-
-```
-src/
-├── @types/
-│   ├── env.d.ts
-│   └── express.d.ts
-├── assets/
-│   └── errors.log
-├── dios/
-│   ├── iCodeDTO.ts
-│   ├── iExceptionDTO.ts
-│   ├── IObjectDTO.ts
-│   └── iResponseDTO.ts
-├── middlewares/
-│   └── errorHandler.ts
-├── modules/
-│   └── assetsDetails/
-│       ├── dios/
-│       │   └── IAssetDetailDTO.ts
-│       ├── services/
-│       │   └── createAssetDetail/
-│       │       ├── CreateAssetDetailController.ts
-│       │       └── CreateAssetDetailService.ts
-│       └── validators/
-├── routes/
-│   ├── guardDetailRouter.ts
-│   └── index.ts
-├── shared/
-│   └── errors/
-│       └── AppError.ts
-├── app.ts
-└── server.ts
-```
 
 ### Description of Folders and Files
 
