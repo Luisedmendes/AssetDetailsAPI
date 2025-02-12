@@ -82,4 +82,3 @@ Here is the detailed folder structure based on the provided description:
 - **server.ts**: Server initialization file.
 ```
 
-This modular structure facilitates code maintenance, scalability, and organization.
