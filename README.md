@@ -1,26 +1,18 @@
-## Como Rodar o Projeto
+## How to Run the Project
 
-Siga as etapas abaixo para configurar e rodar o projeto localmente.
+Follow the steps below to set up and run the project locally.
 
-### 1. Instalar as Dependências
+### 1. Install Dependencies
 
-Primeiro, instale as dependências do projeto usando o `npm`:
-
-```bash
-npm install
-```
-
-### 2. Variaveis de ambiente
-
-Coloque a variavel de ambiente nop .env
+First, install the project dependencies using `npm`:
 
 ```bash
 npm install
 ```
 
-### 3. 
+### 2. Environment Variables
 
-Coloque a variavel de ambiente nop .env
+Add the environment variables to the `.env` file.
 
 ```bash
 npm install
@@ -28,7 +20,15 @@ npm install
 
 ### 3. 
 
-Rode o projeto
+Add the environment variables to the `.env` file.
+
+```bash
+npm install
+```
+
+### 3. 
+
+Run the project
 
 ```bash
 npm run dev
@@ -36,4 +36,4 @@ npm run dev
 
 ### 4. 
 
-Rota POST /asset-details
+POST Route /asset-details
