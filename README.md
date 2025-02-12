@@ -15,16 +15,9 @@ npm install
 Add the environment variables to the `.env` file.
 
 ```bash
-npm install
+PORT=3000
 ```
 
-### 3. 
-
-Add the environment variables to the `.env` file.
-
-```bash
-npm install
-```
 
 ### 3. 
 
